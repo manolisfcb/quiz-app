@@ -1,12 +1,12 @@
 import 'package:quizapp/models/quiz_questions.dart';
-const qustions = [
+const questions = [
   QuizQuestions(
     questionText: 'What is the capital of France?',
-    answers: ['Berlin', 'Madrid', 'Paris', 'Rome'],
+    answers: ['Paris', 'Berlin', 'Madrid', 'Rome'],
   ),
   QuizQuestions(
     questionText: 'Which planet is known as the Red Planet?',
-    answers: ['Earth', 'Mars', 'Jupiter', 'Saturn'],
+    answers: ['Mars', 'Earth', 'Jupiter', 'Saturn'],
   ),
   QuizQuestions(
     questionText: 'Who wrote "To Kill a Mockingbird"?',
@@ -14,7 +14,7 @@ const qustions = [
   ),
   QuizQuestions(
     questionText: 'What is the largest ocean on Earth?',
-    answers: ['Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'Pacific Ocean'],
+    answers: ['Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean'],
   ),
   QuizQuestions(
     questionText: 'What is the chemical symbol for gold?',
@@ -22,6 +22,6 @@ const qustions = [
   ),
   QuizQuestions(
     questionText: 'Who painted the Mona Lisa?',
-    answers: ['Vincent van Gogh', 'Pablo Picasso', 'Leonardo da Vinci', 'Claude Monet'],
+    answers: ['Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Claude Monet'],
   ),
 ];
